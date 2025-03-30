@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "proxy": "https://api.nbp.pl",
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
