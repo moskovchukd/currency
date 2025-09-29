@@ -1,29 +1,19 @@
-# Rsbuild project
+# currency-update
 
-## Setup
+A lightweight React **(v19)** application built with **Rsbuild** for fast dev/builds and **Recharts** for charts.  
+It consumes the **Narodowy Bank Polski (NBP) public API** to display currency data and trends.
 
-Install the dependencies:
+> Requires **Node.js 18+**. The project uses native ESM (`"type": "module"`).
 
-```bash
-pnpm install
-```
+---
 
-## Get started
-
-Start the dev server:
+## 🚀 Quick Start
 
 ```bash
-pnpm dev
+# 1) Install dependencies
+npm install
+
+# 2) Start the dev server (auto-opens a browser tab)
+npm run dev
 ```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+By default, the dev server binds to a free port and supports hot reloading.
